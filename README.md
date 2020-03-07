@@ -1,12 +1,10 @@
 # py-vigenere-cracker
-A python cracker for vigenere cypher
+A simple python cracker for Vigenére ciphers.
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://gitHub.com/Mr5he11/py-vigenere-cracker/graphs/commit-activity)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Mr5he11/py-vigenere-cracker/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://gitHub.com/Mr5he11/py-vigenere-cracker/releases/)
-
-A simple cracker for Vigenére ciphers.
 
 ### Usage
 
