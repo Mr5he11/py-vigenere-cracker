@@ -112,7 +112,7 @@ def decrypt(cypher, shifts, plaintext):
     "decrypted_text": decrypted_text
   }
 
-#MAIN FUNCTION
+# MAIN FUNCTION
 
 def main(argv):
   cypher=""
