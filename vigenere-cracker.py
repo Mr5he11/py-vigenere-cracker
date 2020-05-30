@@ -108,7 +108,7 @@ def decrypt(cypher, shifts, plaintext):
     index += 1
 
   return {
-    "key": "".join(map(lambda x: chr(int(x + 65)), new_shifts)),
+    "key": "".join(map(lambda x: chr(int((26-x) + 65)), new_shifts)),
     "decrypted_text": decrypted_text
   }
 
@@ -143,7 +143,7 @@ def main(argv):
       plaintext = alphabetic_chars_only.sub('', file.read().upper())
       file.close()
     elif opt == '-c':
-      coincidence_limit = arg
+      coincidence_limit = float(arg)
 
   if finput == "":
     print("Error: must provide input file")
